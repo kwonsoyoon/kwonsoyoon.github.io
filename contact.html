@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Junge&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    
+    <style>
+
+    
+
+
+        body {
+            background-image: linear-gradient(to bottom, rgb(186, 181, 227), white);
+            height: 1500px;
+            font-family: "Junge", cursive;
+
+
+            
+        }
+
+        div{
+            margin-top: 0px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            opacity: 0;
+            transition: all 0.5s;
+            
+        }
+    </style>
+
+    <div><h1 style="font-size: 50px;">CONTACT</h1></div>
+    <div><h1 style="font-size: 50px; color: rgba(0, 0, 0, 0.49);">CONTACT</h1></div>
+    <div><h1 style="font-size: 50px; color: rgba(0, 0, 0, 0.336);">CONTACT</h1></div>
+    <br><br><br><br><br><br><br>
+    <div><span class="material-symbols-outlined">
+        call
+        </span></div>
+    <div>]Phone Number: 010-5520-2163
+        <br><br><br></p>
+    </div>
+    <div><span class="material-symbols-outlined">
+        mail
+        </span></style></div>
+    <div>Mail: gonsoyun2345@gmail.com
+        <br><br><br><br>
+    </p></div>
+    <div><span class="material-symbols-outlined">
+        favorite
+        </span></div>
+    <div>Instagram: adore_erodaa</div>
+    
+
+    <script>
+
+        let observer = new IntersectionObserver((e)=>{
+            e.forEach((박스)=>{
+                if (박스.isIntersecting){
+                    박스.target.style.opacity = 1;
+                } else {
+                    박스.target.style.opacity = 0;
+                }
+                박스.intersectionRatio
+            })
+        })
+
+        let div = document.querySelectorAll('div')
+        observer.observe(div[0])
+        observer.observe(div[1])
+        observer.observe(div[2])
+        observer.observe(div[3])
+        observer.observe(div[4])
+        observer.observe(div[5])
+        observer.observe(div[6])
+        observer.observe(div[7])
+        observer.observe(div[8])
+        observer.observe(div[9])
+    </script>
     
 </body>
 </html>
